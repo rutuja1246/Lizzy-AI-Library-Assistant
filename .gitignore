@@ -27,3 +27,9 @@ logs/
 
 # Windows
 Thumbs.db
+
+# Chat logs
+logs/
+
+# Runtime databases (optional)
+chatlogs.db
