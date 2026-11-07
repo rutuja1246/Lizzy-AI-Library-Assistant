@@ -1,0 +1,6 @@
+Experiment,Accuracy,Macro F1
+A1 - Unigrams,72.5,0.713
+A2 - Unigrams + Bigrams,72.5,0.699
+A3 - Up to Trigrams,72.5,0.699
+A4 - Character N-grams,70.0,0.693
+A5 - Word + Character,72.5,0.72

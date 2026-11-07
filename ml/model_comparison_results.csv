@@ -1,0 +1,4 @@
+Model,Best Parameters,CV Macro F1,Test Accuracy,Test Macro F1
+Logistic Regression,{'classifier__C': 10},0.7083,77.5,0.7667
+Multinomial Naive Bayes,{'classifier__alpha': 0.1},0.6984,75.0,0.735
+Linear SVM,{'classifier__C': 1},0.7212,77.5,0.7667

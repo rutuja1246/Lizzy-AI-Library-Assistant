@@ -1,0 +1,198 @@
+text,intent
+Hello Lizzy,greeting
+Hi there,greeting
+Hey,greeting
+Good morning,greeting
+Good evening,greeting
+Hello there,greeting
+Hey how are you,greeting
+Hi Lizzy how are you,greeting
+Good afternoon,greeting
+Hey there Lizzy,greeting
+Find me Atomic Habits,book_search
+Search for Dune,book_search
+Do you have The Hobbit,book_search
+I want to find Clean Code,book_search
+Show me Python Crash Course,book_search
+Can you find Sapiens,book_search
+Look for Deep Work,book_search
+Search the catalogue for Ikigai,book_search
+I am looking for a book called Dune,book_search
+Find The Psychology of Money,book_search
+Books by Rick Riordan,author_search
+Show me books written by James Clear,author_search
+Who is the author of available books by Cal Newport,author_search
+Find novels by J K Rowling,author_search
+Do you have any books from Morgan Housel,author_search
+List books written by Yuval Noah Harari,author_search
+Search for books by Robert Martin,author_search
+Any books from Eric Matthes,author_search
+I want books by Luciano Ramalho,author_search
+Show me works by Stuart Russell,author_search
+Find programming books,genre_search
+Show me fantasy novels,genre_search
+I want books about artificial intelligence,genre_search
+Do you have science fiction books,genre_search
+List self help books,genre_search
+Show books in the finance category,genre_search
+Find history books,genre_search
+I want to read something in fantasy,genre_search
+Any productivity books available,genre_search
+Show me books from the AI genre,genre_search
+Is Clean Code available,availability_check
+Do you have Dune in stock,availability_check
+Are there copies of The Hobbit,availability_check
+Can I borrow Atomic Habits,availability_check
+Is Python Crash Course currently available,availability_check
+How many copies of Deep Work are available,availability_check
+Is Rich Dad Poor Dad in stock,availability_check
+Can I get a copy of Sapiens,availability_check
+Are any copies of Ikigai available,availability_check
+Check availability of Fluent Python,availability_check
+Where is The Hobbit located,shelf_lookup
+Which shelf has Atomic Habits,shelf_lookup
+Where can I find Dune,shelf_lookup
+Tell me the shelf number for Clean Code,shelf_lookup
+Where is Python Crash Course kept,shelf_lookup
+Find the location of Deep Work,shelf_lookup
+Which section contains Sapiens,shelf_lookup
+Where can I find Ikigai in the library,shelf_lookup
+Tell me where Percy Jackson is kept,shelf_lookup
+Which shelf should I visit for Fluent Python,shelf_lookup
+Recommend me a fantasy book,recommendation
+Suggest a book similar to Dune,recommendation
+What should I read next,recommendation
+Recommend something for beginners in Python,recommendation
+Suggest a good self help book,recommendation
+I enjoyed Percy Jackson what should I read next,recommendation
+Can you recommend a book about finance,recommendation
+Give me some reading suggestions,recommendation
+Suggest books like Atomic Habits,recommendation
+I want a new science fiction book to read,recommendation
+What time does the library open,library_faq
+What are the library timings,library_faq
+How many books can I borrow,library_faq
+What is the borrowing period,library_faq
+How much is the late return fine,library_faq
+How do I become a library member,library_faq
+Can I renew a borrowed book,library_faq
+What happens if I lose a library book,library_faq
+Is the library open on Sundays,library_faq
+How can I return a book,library_faq
+What can you do,help
+How can you help me,help
+What are your features,help
+Tell me how to use this chatbot,help
+What can I ask you,help
+How does this library assistant work,help
+Can you help me find books,help
+Show me your capabilities,help
+What services do you provide,help
+How do I use Lizzy,help
+Tell me a joke,unknown
+What is the weather today,unknown
+Who won the cricket match,unknown
+Write me a poem,unknown
+How do I cook pasta,unknown
+Tell me about the latest movies,unknown
+Can you solve this maths problem,unknown
+What is the capital of France,unknown
+Play a song for me,unknown
+Who is the prime minister,unknown
+Show me books in the artificial intelligence category,genre_search
+Find books belonging to the AI section,genre_search
+List all AI books in the library,genre_search
+I want to browse programming books,genre_search
+Can you show me novels in the fantasy category,genre_search
+Find books related to finance,genre_search
+Show me the available history books,genre_search
+Which books belong to the self help category,genre_search
+What's the library opening time,library_faq
+How late is the library open,library_faq
+Can you tell me the library's closing hours,library_faq
+What is the maximum number of books I can take,library_faq
+Where can I pay my library fine,library_faq
+Do I need an ID card to borrow books,library_faq
+Can visitors use the library,library_faq
+How do I register for membership,library_faq
+Can you suggest something interesting to read,recommendation
+What books would you recommend,recommendation
+Help me choose my next book,recommendation
+I need a good book recommendation,recommendation
+Suggest a few books for me,recommendation
+What else can I read after Dune,recommendation
+Recommend a beginner friendly programming book,recommendation
+Tell me which shelf contains Clean Code,shelf_lookup
+On which shelf is Python Crash Course,shelf_lookup
+Where are the programming books kept,shelf_lookup
+Tell me the location of The Hobbit,shelf_lookup
+Which rack has Atomic Habits,shelf_lookup
+Where can I locate the book Dune,shelf_lookup
+Where is the fantasy section,shelf_lookup
+Which shelf should I look at for Sapiens,shelf_lookup
+Search the catalogue for The Hobbit,book_search
+Look up the book Clean Code,book_search
+Find a copy of Dune in the catalogue,book_search
+Can you search for Atomic Habits,book_search
+Look up Sapiens for me,book_search
+Find the title Deep Work,book_search
+Show me the book called Ikigai,book_search
+Will it rain tomorrow,unknown
+Who is the prime minister of India,unknown
+Explain how photosynthesis works,unknown
+Give me a recipe for pasta,unknown
+Tell me about the history of computers,unknown
+How do I learn guitar,unknown
+Calculate the square root of 144,unknown
+Recommend a movie to watch,unknown
+Who won yesterday's cricket match,unknown
+Write a birthday message for my friend,unknown
+Hey Lizzy how is it going,greeting
+Hi how are things,greeting
+Hello there how are you doing,greeting
+Hey good to see you,greeting
+Hi assistant,greeting
+Greetings Lizzy,greeting
+Hello good to be here,greeting
+Hey there how are you doing today,greeting
+Good to see you Lizzy,greeting
+Hi I need some help,greeting
+List all books written by Morgan Housel,author_search
+Show me the titles by Eric Matthes,author_search
+Which books has Rick Riordan written,author_search
+Find the works of James Clear,author_search
+Give me a list of books by Cal Newport,author_search
+Who wrote books available in this library,author_search
+Search for authors named Robert Kiyosaki,author_search
+Show titles from Yuval Noah Harari,author_search
+Does this library have books by Stuart Russell,author_search
+Find publications by Luciano Ramalho,author_search
+Can I borrow a copy of Dune today,availability_check
+Check whether The Hobbit is in stock,availability_check
+Are there any copies of Atomic Habits left,availability_check
+Is Clean Code currently on loan,availability_check
+Tell me how many copies of Sapiens are left,availability_check
+Can I borrow Python Crash Course,availability_check
+Is Deep Learning with Python available to borrow,availability_check
+Check the stock status of Ikigai,availability_check
+Do you currently have Fluent Python,availability_check
+Are all copies of Rich Dad Poor Dad borrowed,availability_check
+How do I interact with Lizzy,help
+Can you explain your functions,help
+What kind of library tasks can you perform,help
+Tell me what you are capable of,help
+How should I ask you questions,help
+Can you guide me through using this assistant,help
+What types of queries do you understand,help
+Explain how to search using Lizzy,help
+What features are available here,help
+Can you tell me how this chatbot works,help
+Look up Atomic Habits in the catalogue,book_search
+Find books in the science fiction category,genre_search
+Browse the library's finance collection,genre_search
+Which shelf contains Dune,shelf_lookup
+Where is the book Ikigai located,shelf_lookup
+Suggest a fantasy novel for my next read,recommendation
+What would be a good book for learning AI,recommendation
+What is the procedure for renewing a book,library_faq
+Are there any penalties for damaged books,library_faq

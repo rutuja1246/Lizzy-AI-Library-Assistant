@@ -4,32 +4,41 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Virtual Environment
+# Virtual environments
 venv/
 env/
 .venv/
 
-# VS Code
+# IDE
 .vscode/
+.idea/
 
-# Database
+# Databases
 *.db
 *.sqlite3
+*.db-journal
 
 # Logs
 logs/
+*.log
 
 # Environment variables
 .env
+.env.*
 
-# macOS
+# OS files
 .DS_Store
-
-# Windows
 Thumbs.db
 
-# Chat logs
-logs/
+# ML model backups and experimental models
+* copy.*
+ml/intent_model.pkl
+ml/intent_model_tuned_candidate.pkl
 
-# Runtime databases (optional)
-chatlogs.db
+# Keep shortlisted models used by evaluation
+!ml/best_intent_model_candidate.pkl
+!ml/word_svm_candidate.pkl
+
+# Python testing cache
+.pytest_cache/
+.coverage

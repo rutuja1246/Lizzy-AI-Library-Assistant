@@ -1,0 +1,51 @@
+text,intent
+"Hey Lizzy, good morning",greeting
+"Hello there, library assistant",greeting
+"Good evening!",greeting
+"Hi, are you online?",greeting
+"Hey, what's up?",greeting
+"Can I find a copy of Dune?",book_search
+"I'm trying to locate The Hobbit",book_search
+"Look up the book Ikigai",book_search
+"Is Harry Potter in your catalogue?",book_search
+"Find me a copy of Sapiens",book_search
+"Which titles has Morgan Housel written?",author_search
+"Show me works written by Eric Matthes",author_search
+"I'm interested in books from Yuval Noah Harari",author_search
+"Who wrote The Pragmatic Programmer?",author_search
+"List books authored by J.K. Rowling",author_search
+"Show me your fantasy collection",genre_search
+"What programming titles are available in the catalogue?",genre_search
+"Do you have any books in the history section?",genre_search
+"I'm interested in finance books",genre_search
+"Browse your science fiction collection",genre_search
+"Can I borrow Clean Code right now?",availability_check
+"Are there any copies of Deep Learning with Python left?",availability_check
+"Has The Hobbit been issued to someone?",availability_check
+"How many copies of Dune can I borrow?",availability_check
+"Is Atomic Habits currently in stock?",availability_check
+"Where in the library should I look for Fluent Python?",shelf_lookup
+"Which rack contains Sapiens?",shelf_lookup
+"Tell me the shelf code for Dune",shelf_lookup
+"Where have you placed Clean Code?",shelf_lookup
+"Where can I physically find The Hobbit?",shelf_lookup
+"Suggest a book for my weekend reading",recommendation
+"I want something engaging to read next",recommendation
+"Recommend a title for someone new to programming",recommendation
+"What should I read if I enjoy fantasy?",recommendation
+"Help me discover my next favourite book",recommendation
+"What time does the library close?",library_faq
+"Can students renew borrowed books?",library_faq
+"What is the maximum borrowing period?",library_faq
+"Are there any fines for returning books late?",library_faq
+"Can I access the library during weekends?",library_faq
+"I'm confused about how to use this chatbot",help
+"What kinds of questions can I ask you?",help
+"Show me how to search your catalogue",help
+"How do I interact with Lizzy?",help
+"What features does this assistant offer?",help
+"What's the weather going to be tomorrow?",unknown
+"Can you calculate my monthly expenses?",unknown
+"Tell me a joke about computers",unknown
+"Who won the last football match?",unknown
+"Write a poem about the ocean",unknown

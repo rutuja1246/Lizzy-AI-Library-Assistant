@@ -1,10 +1,65 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <title>Lizzy - AI Library Assistant</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Lizzy | AI Library Assistant</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
   </head>
+
   <body>
-    <h1>📚 Welcome to Lizzy!</h1>
-    <p>Your Smart Library Companion.</p>
+    <div class="chat-container">
+      <!-- Header -->
+      <header class="header">
+        <div class="brand">
+          <div class="brand-icon">📚</div>
+
+          <div class="brand-info">
+            <h1>Lizzy</h1>
+            <p>Your Smart Library Companion</p>
+          </div>
+        </div>
+
+        <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </header>
+
+      <!-- Chat Area -->
+      <main id="chat-box">
+        <div class="message bot">
+          <div class="sender">📚 Lizzy</div>
+
+          <div class="bubble welcome">
+            <h3>Hello! I'm Lizzy 👋</h3>
+
+            <p>
+              Think of me as your personal librarian. I can help you discover
+              books, check availability, locate shelves and answer
+              library-related questions.
+            </p>
+
+            <p><strong>What can I help you find today?</strong></p>
+          </div>
+        </div>
+      </main>
+
+      <!-- Input Area -->
+      <footer class="input-area">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Ask Lizzy anything about the library..."
+          autocomplete="off"
+        />
+
+        <button id="send-btn" aria-label="Send message">➜</button>
+      </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
   </body>
 </html>

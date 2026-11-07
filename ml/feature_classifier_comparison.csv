@@ -1,0 +1,5 @@
+Experiment,Best Parameters,CV Macro F1,Test Accuracy,Test Macro F1
+D1 - Word + Logistic Regression,{'classifier__C': 100},0.7254,72.5,0.7027
+D2 - Word + Linear SVM,{'classifier__C': 1},0.7147,72.5,0.7027
+D3 - Combined + Logistic Regression,{'classifier__C': 10},0.7538,77.5,0.7746
+D4 - Combined + Linear SVM,{'classifier__C': 10},0.7893,85.0,0.8441
