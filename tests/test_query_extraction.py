@@ -13,7 +13,9 @@ test_cases = [
     ("Find programming books", "genre_search"),
     ("Do you have Atomic Habits?", "book_search"),
     ("Is Clean Code available?", "availability_check"),
-    ("Where can I find Dune?", "shelf_lookup")
+    ("Where can I find Dune?", "shelf_lookup"),
+    ("Do you have the Harry Potter books?", "book_search"),
+    ("Do you have the Percy Jackson books?", "book_search")
 ]
 
 for message, intent in test_cases:

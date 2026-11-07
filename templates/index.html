@@ -10,6 +10,12 @@
       rel="stylesheet"
       href="{{ url_for('static', filename='style.css') }}"
     />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ url_for('static', filename='images/lizzy-favicon.png') }}"
+    />
   </head>
 
   <body>
@@ -17,7 +23,13 @@
       <!-- Header -->
       <header class="header">
         <div class="brand">
-          <div class="brand-icon">📚</div>
+          <div class="brand-icon">
+            <img
+              src="{{ url_for('static', filename='images/lizzy-avatar.png') }}"
+              alt="Lizzy"
+              class="lizzy-avatar"
+            />
+          </div>
 
           <div class="brand-info">
             <h1>Lizzy</h1>
@@ -31,7 +43,13 @@
       <!-- Chat Area -->
       <main id="chat-box">
         <div class="message bot">
-          <div class="sender">📚 Lizzy</div>
+          <div class="sender">
+            <img
+              src="{{ url_for('static', filename='images/lizzy-avatar.png') }}"
+              alt="Lizzy"
+              class="lizzy-avatar"
+            />Lizzy
+          </div>
 
           <div class="bubble welcome">
             <h3>Hello! I'm Lizzy 👋</h3>

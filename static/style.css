@@ -2,30 +2,36 @@
    THEME VARIABLES
 ================================= */
 
+/* ==============================
+   THEME VARIABLES
+================================= */
+
 :root {
-  --bg: #f5f2ec;
-  --card: #ffffff;
-  --primary: #315f50;
-  --primary-hover: #254b3f;
-  --bot-bubble: #eef4f0;
-  --user-bubble: #315f50;
-  --text: #292d2a;
-  --muted: #858b85;
-  --border: #e7e8e3;
-  --input-bg: #ffffff;
+  /* Light mode - Walnut & parchment */
+  --bg: #eae3d8;
+  --card: #f5f0e8;
+  --primary: #493629;
+  --primary-hover: #35271e;
+  --bot-bubble: #e5dbce;
+  --user-bubble: #594333;
+  --text: #30251e;
+  --muted: #827466;
+  --border: #d5c8b8;
+  --input-bg: #faf7f1;
 }
 
 body.dark {
-  --bg: #191f1c;
-  --card: #242d28;
-  --primary: #4d8a70;
-  --primary-hover: #3d725c;
-  --bot-bubble: #303d35;
-  --user-bubble: #477c64;
-  --text: #f0f3ef;
-  --muted: #aab5ad;
-  --border: #3a463f;
-  --input-bg: #2c3730;
+  /* Dark mode - Espresso & mahogany */
+  --bg: #171411;
+  --card: #211b17;
+  --primary: #49372b;
+  --primary-hover: #5b4535;
+  --bot-bubble: #30251e;
+  --user-bubble: #594333;
+  --text: #ede4d9;
+  --muted: #b4a494;
+  --border: #403329;
+  --input-bg: #292019;
 }
 
 /* ==============================
@@ -51,7 +57,9 @@ body {
 
   padding: 24px;
 
-  transition: background 0.25s;
+  transition:
+    background 0.25s,
+    color 0.25s;
 }
 
 /* ==============================
@@ -323,4 +331,30 @@ input::placeholder {
   .input-area {
     padding: 12px;
   }
+}
+
+.lizzy-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.sender {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.brand-icon .lizzy-avatar {
+  width: 44px;
+  height: 44px;
+  margin-right: 0;
+}
+
+.sender .lizzy-avatar {
+  width: 26px;
+  height: 26px;
 }

@@ -95,7 +95,17 @@ function addMessage(text, sender) {
 
   const name = document.createElement("div");
   name.className = "sender";
-  name.textContent = sender === "bot" ? "📚 Lizzy" : "You";
+  if (sender === "bot") {
+    const avatar = document.createElement("img");
+    avatar.src = "/static/images/lizzy-avatar.png";
+    avatar.alt = "Lizzy";
+    avatar.className = "lizzy-avatar";
+
+    name.appendChild(avatar);
+    name.appendChild(document.createTextNode("Lizzy"));
+  } else {
+    name.textContent = "You";
+  }
 
   const bubble = document.createElement("div");
   bubble.className = "bubble";
@@ -116,13 +126,22 @@ function addMessage(text, sender) {
 function showTyping() {
   const typing = document.createElement("div");
   typing.className = "message bot";
-
   typing.id = "typing";
 
+  // Create sender label
   const name = document.createElement("div");
   name.className = "sender";
-  name.textContent = "📚 Lizzy";
 
+  // Add Lizzy's avatar
+  const avatar = document.createElement("img");
+  avatar.src = "/static/images/lizzy-avatar.png";
+  avatar.alt = "Lizzy";
+  avatar.className = "lizzy-avatar";
+
+  name.appendChild(avatar);
+  name.appendChild(document.createTextNode("Lizzy"));
+
+  // Create typing bubble
   const bubble = document.createElement("div");
   bubble.className = "bubble typing";
   bubble.textContent = "Lizzy is thinking...";

@@ -351,7 +351,7 @@ def get_response(message):
     # Greeting
     if intent == "greeting":
         return (
-            "Hello! I'm Lizzy, your smart library companion. 📚\n"
+            "Hello! I'm Lizzy, your smart library companion.\n"
             "I can help you find books, check availability, "
             "and locate their shelves. What are you looking for?"
         )
@@ -379,7 +379,7 @@ def get_response(message):
     # Recommendation
     if intent == "recommendation":
         return (
-            "I'd love to help you discover your next read! 📚 "
+            "I'd love to help you discover your next read! "
             "Our personalised recommendation feature is still being developed. "
             "Try browsing our available books by genre for now."
         )
